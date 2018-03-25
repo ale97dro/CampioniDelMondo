@@ -1,0 +1,26 @@
+﻿<Window x:Class="CampioniDelMondo.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Campioni Del Mondo!" Height="542.267" Width="357" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="Icona.ico">
+    <Window.Background>
+        <SolidColorBrush Color="DodgerBlue" Opacity="0.9"/>
+    </Window.Background>
+
+    <Grid x:Name="grid" Margin="0,0,2,0">
+        <Grid.Background>
+            <SolidColorBrush Color="DodgerBlue" Opacity="0"/>
+        </Grid.Background>
+
+        <Button Content="Cannavaro, Cannavaro!" Margin="29,57,29,0" VerticalAlignment="Top" Height="43" Background="#FF10C1F5" BorderBrush="#FF10C1F5" Foreground="White" FontWeight="Bold" FontSize="14"/>
+        <Button Content="Francesco Totti!" Margin="29,105,29,0" VerticalAlignment="Top" Height="43" BorderBrush="#FF10C1F5" Background="#FF10C1F5" FontWeight="Bold" Foreground="White"/>
+        <Button Content="Inzaghi, Inzaghi, Super Pippo Inzaghi!" Margin="29,153,29,0" VerticalAlignment="Top" Height="43" Background="#FF10C1F5" BorderBrush="#FF10C1F5" FontWeight="Bold" Foreground="White" FontSize="14"/>
+        <Button Content="Dentro Del Piero!" Margin="29,201,29,0" VerticalAlignment="Top" Height="43" BorderBrush="#FF10C1F5" Background="#FF10C1F5" FontWeight="Bold" Foreground="White" FontSize="14"/>
+        <Button Content="Andiamo a Berlino!" Margin="29,249,29,0" VerticalAlignment="Top" Height="43" Background="#FF10C1F5" BorderBrush="#FF10C1F5" FontWeight="Bold" Foreground="White" FontSize="14"/>
+        <Button Content="Goooool! Materazzi!" Margin="29,297,29,0" VerticalAlignment="Top" Height="43" BorderBrush="#FF10C1F5" Background="#FF10C1F5" FontWeight="Bold" Foreground="White" FontSize="14"/>
+        <Button Content="Siamo Campioni del Mondo!" Margin="29,345,29,0" VerticalAlignment="Top" Height="43" Background="#FF10C1F5" BorderBrush="#FF10C1F5" FontWeight="Bold" Foreground="White" FontSize="14"/>
+        <Button Content="Alzala alta Capitano!" Margin="29,393,29,0" VerticalAlignment="Top" Height="43" BorderBrush="#FF10C1F5" Background="#FF10C1F5" FontWeight="Bold" Foreground="White" FontSize="14"/>
+        <Button x:Name="informazioniBtn" Content="Informazioni" Margin="29,458,29,10" FontWeight="Bold"/>
+        <Label Content="Campioni Del Mondo!" Margin="48,10,47,0" VerticalAlignment="Top" FontSize="16" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
+
+    </Grid>
+</Window>

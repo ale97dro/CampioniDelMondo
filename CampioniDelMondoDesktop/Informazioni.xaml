@@ -1,0 +1,25 @@
+﻿<Window x:Class="CampioniDelMondo.Informazioni"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Informazioni" Height="341" Width="300" ResizeMode="CanMinimize" WindowStartupLocation="CenterScreen" Icon="Icona.ico">
+    <Grid>
+        <Grid x:Name="informationGrid" Visibility="Visible">
+            <Grid.Background>
+                <SolidColorBrush Color="#FF2CC4FD" Opacity="0.5"/>
+            </Grid.Background>
+            <Image Height="95" Margin="98,10,0,0" VerticalAlignment="Top" HorizontalAlignment="Left" Width="98" Source="Icon.png" />
+            <Label Content="Campioni Del Mondo! 1.0" Margin="51,110,40,0" VerticalAlignment="Top" FontWeight="Bold" FontSize="14" HorizontalAlignment="Center"/>
+            <Label Content="Alessandro Bianchi" Margin="80,144,0,0" VerticalAlignment="Top" FontSize="14" HorizontalAlignment="Left" Width="134"/>
+            <Label x:Name="sitoLab" Margin="42,170,41,0" FontSize="14" Height="29" VerticalAlignment="Top" HorizontalContentAlignment="Center">
+                <Hyperlink x:Name="sitoHyp" Click="go_siteClick">basoftware.altervista.org</Hyperlink>
+            </Label>
+            <Label x:Name="recensioneHyp" Margin="58,204,58,0" VerticalAlignment="Top" FontSize="14" HorizontalContentAlignment="Center">
+                <Hyperlink Click="go_siteClick">Lascia una recensione!</Hyperlink>
+            </Label>
+            <Label Content="Email: basoftware0@gmail.com" Margin="41,238,0,0" FontSize="14" Height="29" VerticalAlignment="Top" HorizontalContentAlignment="Center" HorizontalAlignment="Left" Width="211"/>
+            <!--<Button x:Name="changelogBtn" Content="Changelog" Margin="10,0,0,10" FontSize="14" Width="104" HorizontalAlignment="Left" Height="26" VerticalAlignment="Bottom" />-->
+            <Button x:Name="aggiornamentosBtn" Content="Verifica Aggiornamento" Margin="0,0,59,10" HorizontalAlignment="Right" Width="155" FontSize="14" Height="26" VerticalAlignment="Bottom" Click="aggiornamentosBtn_Click" />
+        </Grid>
+
+    </Grid>
+</Window>
