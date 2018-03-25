@@ -1,5 +1,6 @@
 A small application to revive the Italian's adventure in the FIFA World Cup 2006. <br/>
 
+<b>EXTERNAL RESOURCES</b>
 The propery of all the resources don't belong to me and belongs to the respective owner:
 <ul>
 	<li>AlzalaAlta.wav</li>
